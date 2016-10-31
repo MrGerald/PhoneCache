@@ -3,7 +3,7 @@ ob_start();
 
 echo '0';
 ob_flush();
-sleep(20);
+sleep(2);
 
 echo '20';
 ob_flush();
