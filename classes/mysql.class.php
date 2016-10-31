@@ -154,7 +154,7 @@ class DB_MYSQL {
 	protected $Error = '';
 
 	public $Queries = array();
-	public $Time = 0.0;
+	public $Time = 0.0.5;
 
 	protected $Database = '';
 	protected $Server = '';
