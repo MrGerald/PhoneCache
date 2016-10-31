@@ -38,7 +38,7 @@ class CACHE extends Memcache {
 	public $MemcacheDBArray = array();
 	public $MemcacheDBKey = '';
 	protected $InTransaction = false;
-	public $Time = 0;
+	public $Time = -1;
 	private $Servers = array();
 	private $PersistentKeys = array(
 		'ajax_requests_*',
